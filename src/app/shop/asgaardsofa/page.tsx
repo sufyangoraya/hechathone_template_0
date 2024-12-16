@@ -50,7 +50,7 @@ const AsgaardSofaPage = () => {
         {/* Second Column: Large Image */}
         <div>
           <Image
-            src="/image/asgaardsofa.jpeg"
+            src="/image/asgaardsofa.png"
             alt="Asgaard Sofa Large Image"
             width={1000}
             height={1000}
@@ -77,10 +77,9 @@ const AsgaardSofaPage = () => {
 
           {/* Descriptive Text */}
           <div className="flex flex-col gap-2">
-            
-            <p className="text-sm text-gray-600">Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.
-            .</p>
-        
+            <p className="text-sm text-gray-600">
+              Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced.
+            </p>
           </div>
 
           {/* Size Options */}
@@ -112,134 +111,85 @@ const AsgaardSofaPage = () => {
 
           {/* Additional Text in Two Columns */}
           <div className="grid grid-cols-2 gap-4 mt-4">
-           <ul> <li className="text-sm text-gray-600">SKU: SS001</li>
-            <li className="text-sm text-gray-600">category: Sofa</li>
-            <li className="text-sm text-gray-600">Tags: Sofa, Chair, Home, Shop</li>
-            <li className="text-sm text-gray-600 flex gap-3">Share: <Link href="#" className="social-btn facebook">f</Link>
-      <Link href="#" className="social-btn linkedin">in</Link>
-      <Link href="#" className="social-btn twi">t</Link> </li></ul>
+            <ul>
+              <li className="text-sm text-gray-600">SKU: SS001</li>
+              <li className="text-sm text-gray-600">Category: Sofa</li>
+              <li className="text-sm text-gray-600">Tags: Sofa, Chair, Home, Shop</li>
+              <li className="text-sm text-gray-600 flex gap-3">
+                Share:
+                <Link href="#" className="social-btn facebook">f</Link>
+                <Link href="#" className="social-btn linkedin">in</Link>
+                <Link href="#" className="social-btn twi">t</Link>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
-{/* 2nd section */}
+
+      {/* Second Section */}
       <section className="bg-white py-10">
-  <div className="container mx-auto px-4">
-    {/* First Row: Three Text Boxes */}
-    <div className="grid grid-cols-3 gap-4 mb-8">
-      <div className="p-4 border rounded text-center">
-        <h3 className="text-xl font-bold">Description</h3>
-        
-      </div>
-      <div className="p-4 border rounded text-center">
-        <h3 className="text-xl font-bold">Additional Information</h3>
-       
-      </div>
-      <div className="p-4 border rounded text-center">
-        <h3 className="text-xl font-bold">Reviews [5]</h3>
-        
-      </div>
-    </div>
+        <div className="container mx-auto px-4">
+          {/* First Row */}
+          <div className="grid grid-cols-3 gap-4 mb-8">
+            <div className="p-4 border rounded text-center">
+              <h3 className="text-xl font-bold">Description</h3>
+            </div>
+            <div className="p-4 border rounded text-center">
+              <h3 className="text-xl font-bold">Additional Information</h3>
+            </div>
+            <div className="p-4 border rounded text-center">
+              <h3 className="text-xl font-bold">Reviews [5]</h3>
+            </div>
+          </div>
 
-    {/* Second Row: Two Large Images */}
-    <div className="grid grid-cols-2 gap-4 mb-8">
-      <div>
-        <Image
-          src="/image/s2p1s3c3.png" 
-          alt="Second Row Image 1"
-          width={600}
-          height={400}
-          className="object-cover rounded"
-        />
-      </div>
-      <div>
-        <Image
-          src="/image/s2p1s3c2.png" 
-          alt="Second Row Image 2"
-          width={600}
-          height={400}
-          className="object-cover rounded"
-        />
-      </div>
-    </div>
+          {/* Second Row */}
+          <div className="grid grid-cols-2 gap-4 mb-8">
+            <div>
+              <Image
+                src="/image/s2p1s3c3.png"
+                alt="Second Row Image 1"
+                width={600}
+                height={400}
+                className="object-cover rounded"
+              />
+            </div>
+            <div>
+              <Image
+                src="/image/s2p1s3c2.png"
+                alt="Second Row Image 2"
+                width={600}
+                height={400}
+                className="object-cover rounded"
+              />
+            </div>
+          </div>
 
-    {/* Third Row: Two Columns with Text */}
-    <div className="grid grid-cols-2 gap-4">
-      <div className="p-4">
-         <p className="text-gray-600">
-        Embodying the row, wayward spirit of rock n' roll the Kilburn portable active stereo speaker takes the unmistakable look sound of Marshall unplugs the chords, and takes the show on the road.
-
-        </p>
-      </div>
-      <div className="p-4">
-                <p className="text-gray-600">
-                Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering Setting the bar as one of the loud speakers in its class, the Kilburn is a compact stout-hearted hete with a well-balanced audio which boasts a clear midrom and extended mhighs for a sound that is both articulate and pronounced. Ine analogue knobs allow you to fine tune the contr to your personcar preferences while the gutor influenced lecther strop enables easy and stylish travel
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-{/* Third Section: Product Grid */}
-<section className="bg-white text-black py-10">
-        <div className="container mx-auto px-4 text-center">
-        <h2 className="text-5xl font-bold mb-6 ">Related Products</h2>
-        
-          <div className="grid grid-cols-4 gap-4">
-            <div className="text-center">
-              <Image
-                src="/image/product1.jpeg"
-                alt="Product 1"
-                width={150}
-                height={150}
-                className="object-contain mx-auto"
-              />
-              <h3 className="text-sm font-semibold mt-2">Trenton modular sofa_3</h3>
-              <p className="text-lg font-bold">Rs. 25,000.00</p>
+          {/* Third Row */}
+          <div className="grid grid-cols-2 gap-4">
+            <div className="p-4">
+              <p className="text-gray-600">
+                Embodying the row, wayward spirit of rock n&#39; roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.
+              </p>
             </div>
-            <div className="text-center">
-              <Image
-                src="/image/product2.jpeg"
-                alt="Product 2"
-                width={150}
-                height={150}
-                className="object-contain mx-auto"
-              />
-              <h3 className="text-sm font-semibold mt-2">Granite dinning table with dining chair</h3>
-              <p className="text-lg font-bold">Rs. 25,000.00</p>
+            <div className="p-4">
+              <p className="text-gray-600">
+                Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage-styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced.
+              </p>
             </div>
-            <div className="text-center">
-              <Image
-                src="/image/product3.jpeg"
-                alt="Product 3"
-                width={150}
-                height={150}
-                className="object-contain mx-auto"
-              />
-              <h3 className="text-sm font-semibold mt-2">Outdoor bar table and stool </h3>
-              <p className="text-lg font-bold">Rs. 25,000.00</p>
-            </div>
-            <div className="text-center">
-              <Image
-                src="/image/product4.jpeg"
-                alt="Product 4"
-                width={150}
-                height={150}
-                className="object-contain mx-auto"
-              />
-              <h3 className="text-sm font-semibold mt-2 ">Plain console with teak mirror</h3>
-              <p className="text-lg font-bold">Rs. 25,000.00</p>
-            </div>
-            <div ><a href="#" className=" text-center underline text-sm mb-4">
-              View More
-            </a></div>
           </div>
         </div>
       </section>
 
-
-
-
-
-
+      {/* Third Section */}
+      <section className="bg-white text-black py-10">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-5xl font-bold mb-6">Related Products</h2>
+          <div className="grid grid-cols-4 gap-4">
+            {/* Product Grid */}
+            {/* Add related product cards here */}
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
